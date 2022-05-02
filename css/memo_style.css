@@ -33,6 +33,13 @@ ul{
     line-height: 18px;
     margin-bottom: 0;
 }
+
+.icon .iconGray:hover{
+    background-color: #d3d3d3;
+}
+.icon .iconRed:hover{
+    background-color: #e81123;
+}
 .title1{
     display: flex;
     justify-content: space-between;
