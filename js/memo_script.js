@@ -48,7 +48,7 @@ document.addEventListener("click",function(e){
     if(e.target.className != "menuBtns"){
         for(let i=0; i<insideMenus.length; i++){
             insideMenus[i].style.display = "none"
-        }
+        }     
         isOpen = false;
     }
 })
