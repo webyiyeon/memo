@@ -8,17 +8,20 @@
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 /* style reset */
 
 #wrap{
     width: 500px;
     height: 700px;
     margin: 10px auto;
-    border: 1px solid rgb(186, 186, 186);
-    box-shadow: 5px 5px 5px rgb(187, 187, 187);
+    border: 1px solid rgb(203, 203, 203);
+    box-shadow: 3px 3px 8px rgb(187, 187, 187);
 }
 .title h1{
-    padding: 4px 8px;
+    padding: 2px 8px;
     margin-bottom: 0;
     display: flex;
     align-items: center;
@@ -33,7 +36,6 @@ ul{
     line-height: 18px;
     margin-bottom: 0;
 }
-
 .icon .iconGray:hover{
     background-color: #d3d3d3;
 }
@@ -43,25 +45,27 @@ ul{
 .title1{
     display: flex;
     justify-content: space-between;
+
 }
 .menu .menuList{
     display: flex;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(220, 220, 220);
     margin: 0;
-    padding: 0;
+    padding: 3px;
 }
 
 .menuBtns{
-    background-color: white;
     border: 1px solid transparent;
     padding: 2px;
     cursor: pointer;
+    color: black;
 }
 .menuBtns:hover{
     background-color: rgb(211, 233, 242);
     border: 1px solid skyblue;
 }
 .insideMenus{
+    top: 68px;
     position: fixed; 
     z-index: 1000;
     display: none;
@@ -69,18 +73,19 @@ ul{
     box-shadow: 2px 2px 3px rgb(133, 133, 133);
 }
 .insideMenuList{
+    margin-top: 3px;
     margin: 0;
     padding: 0;
 
 }
 .insideMenuList li{
     padding: 0;
-    width: 180px;
-    margin: 2px;
-    padding-left: 20px;
+    width: 210px;
+    margin: 1px;
+    padding-left: 15px;
 }
-
-.insideMenuList button{
+.insideMenuList a{
+    color: black;
     text-align: left;
     background-color: transparent;
     border: none;
@@ -88,12 +93,20 @@ ul{
     padding: 2px;
     width: 87%;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
 
+.insideMenuList li span{
+    display: inline-block;
+}
 .insideMenuList li:hover{
     background-color: skyblue;
 }
+.insideMenuList .editMenu1{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
 
-#insideBtns.helpMenu2{
-    border-top: 1px solid rgb(204, 204, 204);
+.insideMenuList .helpMenu1{
+    border-bottom: 1px solid rgb(204, 204, 204);
 }
