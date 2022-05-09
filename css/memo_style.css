@@ -31,7 +31,8 @@ a{
     width: 18px;
     height: 18px;
 }
-.title h1 p{
+.title h1 a{
+    color: black;
     margin-left: 4px;
     line-height: 18px;
     margin-bottom: 0;
@@ -57,7 +58,6 @@ a{
 .menuBtns{
     border: 1px solid transparent;
     padding: 2px;
-    cursor: pointer;
     color: black;
 }
 .menuBtns:hover{
@@ -80,19 +80,14 @@ a{
 }
 .insideMenuList li{
     padding: 0;
-    width: 210px;
     margin: 1px;
-    padding-left: 15px;
 }
 .insideMenuList a{
     color: black;
-    text-align: left;
+    padding: 3px;
     background-color: transparent;
     border: none;
-    margin-left: 20px;
-    padding: 2px;
-    width: 87%;
-    cursor: pointer;
+    width: 210px;
     display: flex;
     justify-content: space-between;
 }
@@ -106,7 +101,9 @@ a{
 .insideMenuList .editMenu1{
     border-bottom: 1px solid rgb(204, 204, 204);
 }
-
-.insideMenuList .helpMenu1{
-    border-bottom: 1px solid rgb(204, 204, 204);
+.insideLine{
+    margin-left: 9%;
+    height: 1px;
+    width: 90%;
+    background-color: #c9c9c9;
 }
