@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 /* style reset */
-
+ 
 #wrap{
     width: 500px;
     height: 700px;
@@ -61,7 +61,7 @@ a{
     color: black;
 }
 .menuBtns:hover{
-    background-color: rgb(211, 233, 242);
+    background-color: #cce8ff;
     border: 1px solid skyblue;
 }
 .insideMenus{
@@ -69,7 +69,7 @@ a{
     position: fixed; 
     z-index: 1000;
     display: none;
-    background-color: rgb(235, 235, 235);
+    background-color: #f2f2f2;
     box-shadow: 2px 2px 3px rgb(133, 133, 133);
 }
 .insideMenuList{
@@ -80,23 +80,24 @@ a{
 }
 .insideMenuList li{
     padding: 0;
-    margin: 1px;
+    margin: 2px;
 }
 .insideMenuList a{
     color: black;
     padding: 3px;
     background-color: transparent;
     border: none;
-    width: 210px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .insideMenuList li span{
     display: inline-block;
+    padding: 0 10px 0 20px ;
 }
 .insideMenuList li:hover{
-    background-color: skyblue;
+    background-color: #91c9f7;
 }
 .insideMenuList .editMenu1{
     border-bottom: 1px solid rgb(204, 204, 204);
@@ -105,5 +106,5 @@ a{
     margin-left: 9%;
     height: 1px;
     width: 90%;
-    background-color: #c9c9c9;
+    background-color: #d7d7d7;
 }

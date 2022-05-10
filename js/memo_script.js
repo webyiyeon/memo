@@ -36,3 +36,9 @@ document.addEventListener("click",function(e){
         isOpen = false;
     }
 })
+
+
+let memoInfo = document.querySelector('#memoInfo');
+memoInfo.addEventListener("click",function(){
+    alert("뿡")
+})
