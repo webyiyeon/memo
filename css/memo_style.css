@@ -18,7 +18,7 @@ a{
     height: 700px;
     margin: 10px auto;
     border: 1px solid rgb(203, 203, 203);
-    box-shadow: 3px 3px 8px rgb(187, 187, 187);
+    box-shadow: 0px 0px 8px rgb(187, 187, 187);
 }
 .title h1{
     padding: 2px 8px;
@@ -107,4 +107,47 @@ a{
     height: 1px;
     width: 90%;
     background-color: #d7d7d7;
+}
+
+.dDay{
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 40px;
+    /* background-color: #b2f8a3; */
+    background-color:#cce8ff;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#birthLeft{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.birthday{
+    width: 300px;
+    display: block;
+    /* background-color: #91c9f7; */
+    height: 30px;
+    margin: auto;
+}
+
+.birthday ul{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.birthday ul li{
+    background-color: #91c9f7;
+    width: 100px;
+    text-align: center;
+}
+
+.birthday a{
+    color: black;
 }
